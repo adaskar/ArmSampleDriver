@@ -72,7 +72,7 @@ DriverEntry(
 
 	DriverObject->DriverUnload = DriverUnload;
 
-	//KeBugCheck(0xCCCCCCC);
+	//KeBugCheck(0xCCCCCCCC);
 
 	//DriverObject->MajorFunction[IRP_MJ_CREATE] = ;
 	//DriverObject->MajorFunction[IRP_MJ_CLOSE] = ;
