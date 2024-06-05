@@ -11,6 +11,8 @@ wmain(
     UNREFERENCED_PARAMETER(argc);
     UNREFERENCED_PARAMETER(argv);
 
+    goto exit;
+
    /* hDevice = CreateFile(L"G_DevicePath",
                          GENERIC_READ|GENERIC_WRITE,
                          FILE_SHARE_READ | FILE_SHARE_WRITE,
